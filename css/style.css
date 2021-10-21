@@ -1,0 +1,78 @@
+body {
+    background-color:white;
+}
+.content {
+    width: 900px;
+    background-color:white;
+    margin: auto;
+    padding: 16px;
+}
+h5 {
+    font-family: sans-serif;
+}
+h3 {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+}
+mark {
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    background-color:#bbb5c3;
+}
+
+table {
+    width: 100%;
+}
+.navTop {
+    background-color:rgb(231, 52, 52);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#search-box {
+    width: 97%;
+    margin-bottom: 1px;
+    padding: 3px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+.content1 {
+    background-color: white(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: rgb(8, 8, 8);
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: px 2px 2px 2px grey;
+   
+}
+.testimoni {
+    background-color: #f48fb1;
+    background-size:cover;
+}
+.acaraittp {
+    background-color: #b71c1c;
+}
+.kontak {
+    background-color: #b71c1c;
+}
+.footer {
+    background-color: #d50000;
+    color: azure;
+}
+.copy {
+    color: white;
+}
