@@ -1,5 +1,5 @@
 # __Screenshoot tugas pertemuan 1__
-# latihan 14: 
+# latihan 14 : 
 ![image](https://user-images.githubusercontent.com/72422140/138583756-b90585de-371e-4c7b-a7da-82dd67e1789e.png)
 # latihan 15 :
 ![image](https://user-images.githubusercontent.com/72422140/138583773-b3e97ba6-59de-4df0-95db-3a5f7df87c84.png)
