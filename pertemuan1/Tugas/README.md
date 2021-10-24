@@ -1,4 +1,4 @@
-# __Screenshoot tugas pertemuan 1__
+# ===> Screenshoot tugas pertemuan 1 <===
 # latihan 14 : 
 ![image](https://user-images.githubusercontent.com/72422140/138583756-b90585de-371e-4c7b-a7da-82dd67e1789e.png)
 # latihan 15 :
