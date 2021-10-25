@@ -1,0 +1,13 @@
+/* mengatur style table */
+.tb {
+    border-collapse: collapse;
+    width: 200px;
+    margin-top: 10px;
+}/* untuk mengatur colour dengan row ganjil */
+.tb tr:nth-child(odd){
+    background-color: blue;
+}
+/* untuk mengatur colour dengan row grnap */
+.tb tr:nth-child(even){
+    background-color: red;
+}
