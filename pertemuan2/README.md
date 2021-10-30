@@ -1,5 +1,5 @@
 # Praktikum pertemuan 2
-  >Pengumpulan praktikum pemrogaman web
+  
 <table>
     <tr>
         <td>Nama</td>
