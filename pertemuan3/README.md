@@ -31,7 +31,11 @@
   <p>penggunaan perulangan (for) dan penggunaan perintah alert</p>
  
   ![contoh6 1](https://user-images.githubusercontent.com/72422140/141433012-25cbe774-7121-4c99-a2f8-6b0428c33b1b.png)
-
   
+  <li><h3>Contoh 7</h3></li>
+  <p>penggunaan penggunaan event handler onclick menampilkan button halo</p>
+ 
+  ![contoh event handler](https://user-images.githubusercontent.com/72422140/141435856-b40af061-7706-45e9-afbc-55d01dfcc7fa.png)
+
 </ul>
 
