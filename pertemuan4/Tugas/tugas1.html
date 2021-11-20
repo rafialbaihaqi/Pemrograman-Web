@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas1</title>
+    <!-- inline cdn untuk instalasi jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Halo Guys!</h1>
+    <h2>Arahkan kesini, akan hilang!</h2>
+    <input type="text" name="nama" id="nama">
+    <script>
+        // fungsi jquery onclick, ketika mengklik maka tag h1 akan menhilang 
+        $('h1').click(function () {
+            // action utuk memberi efek menghilang 
+            $(this).hide();
+        });
+
+        // akan mengganti ukuran dari inputan menjadi lebih lebar sebesar 700px
+        $("#nama").focus(function () {
+            $(this).css("width", "700px")
+        })
+
+        // akan menghilang ketika kursor menghover tulisan di tag 2
+        $("h2").hover(function () {
+            $(this).toggle()
+        })
+    </script>
+</body>
+
+</html>

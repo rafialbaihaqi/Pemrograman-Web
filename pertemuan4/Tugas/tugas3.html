@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- input untuk memasukkan bilangan 1 dan bilangan 2 menggunakan id bil 1 dan 2-->
+    <input type="number" name="bil1" id="bil1">
+    <input type="number" name="bil2" id="bil2">
+    <!-- button tambah menggunakan id btnTambah -->
+    <input type="button" value="tambah" id="btnTambah">
+
+    <script>
+        // jquery untuk melakukan fungsi penambahan 
+        $("#btnTambah").on("click", function () {
+            let bil1 = $("#bil1").val()
+            let bil2 = $("#bil2").val()
+            let hasil = parseInt(bil1) + parseInt(bil2)
+
+            // alert untuk menampilkan hasil penjumlahan 
+            alert("Hasilnya adalah " + hasil)
+        })
+    </script>
+</body>
+
+</html>

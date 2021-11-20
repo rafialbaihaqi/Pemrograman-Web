@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        /* style untuk mengatur warna heading dan font size  */
+        .heading {
+            color: blue;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- tag heading 1 lorem  -->
+    <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident optio a rerum ipsam assumenda
+        reprehenderit. Corporis amet facilis dicta quam nulla exercitationem eius ipsa voluptatum. Consequatur atque cum
+        assumenda!
+    </h1>
+    <!-- button ganti menggunakan id ganti -->
+    <button id="ganti">Ubah</button>
+    <script>
+        // jquery untuk menambak class heading yang akan terlihat ketika
+        //inspect halaman makan akan penambahan class heading dan fungsi akan menggenerate 
+        // mengubah warna dari lorem dan ukuran sesuai dari style class heading
+        $("#ganti").on("click", function () {
+            $("h1").addClass("heading")
+        })
+    </script>
+</body>
+
+</html>
